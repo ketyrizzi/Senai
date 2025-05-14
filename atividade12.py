@@ -1,15 +1,13 @@
-#Faça um algoritmo que receba dois números, calcule e mostre a divisão do primeiro número pelo segundo. 
-# Sabe-se que o segundo número não pode ser zero, portanto não é necessário se preocupar com validações.
+soma = 0
+n = 3
 
-# pedir ao usuário receber dois numeros
-num1 = float(input("Digite o primeiro número: "))
-num2 = float(input("Digite o segundo número: "))
+for i in range(1, n + 1):
+    numero = float(input(f"digite o {i}º número: "))
+    soma += numero
 
-# Cálculo
-resultado = num1 / num2
+multiplicacao = soma / n
 
-#resultado
-printf"O resultado da divisão é: {resultado}")
+print("A média dos números digitados é:", multiplicacao)
 
 
 
